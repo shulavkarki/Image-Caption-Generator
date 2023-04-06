@@ -27,5 +27,5 @@ Model Used:
   
 - This feature vector passes to lstm cell.  
 - The lstm results on the probability distribution of words in vocab_size.
-- Loops for 40(max_length), until <end> token is found.
+- Loops for 40(max_length), until <end> token is found.  
   -- The embedding of ouput word is then passed as input to lstm cell.
