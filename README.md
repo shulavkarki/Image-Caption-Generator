@@ -1,6 +1,16 @@
 # Image-Caption-Generator
-Image Caption Generator using CNN and LSTM
-Model Used:
+Image Caption Generator using CNN and LSTM  
+
+### Dataset:
+  
+31.8k flickr dataset
+
+### Technologies Used:
+1. Pytorch
+2. Python
+3. Spacy
+
+### Model Used:
 
 #### 1. CNN  
 
