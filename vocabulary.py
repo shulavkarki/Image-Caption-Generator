@@ -31,19 +31,6 @@ class Vocabulary:
                         self.stoi[word] = idx
                         self.itos[idx] = word
                         idx += 1
-
-                    # if word not in frequencies:
-                    #     frequencies[word] = 1
-
-                    # else:
-                    #     frequencies[word] += 1
-
-                    # if frequencies[word] == self.freq_threshold:
-                    #     self.stoi[word] = idx
-                    #     self.itos[idx] = word
-                    #     idx += 1
-            # print(f"lenght of vocabs: {len(self.stoi)}")
-            # print(self.stoi)
             with open(config.VOCAB_FILE, "wb") as f:
                 pickle.dump(self.stoi, f)
         else:
