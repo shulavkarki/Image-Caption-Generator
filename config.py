@@ -1,0 +1,9 @@
+EMBED_SIZE = 264
+HIDDEN_SIZE = 264
+BATCH_SIZE = 16
+EPOCH = 100
+NUM_WORKERS = 4
+IMAGE_PATH = 'data/images'
+VOCAB_FILE = "vocab.pkl"
+MODEL_PATH = "versions/v3/model_params/checkpoint100.pth"
+MODEL_SAVE_PATH = "versions/v3/model_params/"
