@@ -40,3 +40,8 @@ Image Caption Generator using CNN and LSTM
 - The lstm results on the probability distribution of words in vocab_size.
 - Loops for 40(max_length), until ```<end>``` token is found.  
   -- The embedding of ouput word is then passed as input to lstm cell.
+  
+  
+  Result:  
+  ![Image1](https://github.com/shulavkarki/Image-Caption-Generator/blob/master/versions/v1/captioned_images/1.jpg)
+
